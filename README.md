@@ -28,4 +28,9 @@ Workers closest to the work have unique insight into real-world risks and harms.
 Built from discussions at NIEHS 2026 "AI & Worker Health/Safety" conference and aligned with the UC Berkeley Labor Center's "Negotiating Tech" inventory.
 
 ## License
+This work is released under 
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).  
+You are free to adapt and use it with attribution to:  
+**inXsol LLC** — [WorkerInformedAI](https://github.com/nphoenix/WorkerInformedAI)
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
