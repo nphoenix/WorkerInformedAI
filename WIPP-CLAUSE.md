@@ -56,8 +56,15 @@ Employers shall provide paid, protected time for training on the System, risk ev
 
 ## Adaptability and Review
 
-This clause is designed to be adaptable by mutual agreement while preserving core participation rights. It shall be reviewed annually or upon significant technological change, with worker input required.
+This clause is designed to be adaptable by mutual agreement while preserving 
+core participation rights. It shall be reviewed annually or upon significant 
+technological change, with worker input required.
 
 ---
 
-**License**: This clause is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). You are free to adapt and use it with attribution to this repository.
+**License**: This work is released under 
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).  
+You are free to adapt and use it with attribution to:  
+**inXsol LLC** — [WorkerInformedAI](https://github.com/nphoenix/WorkerInformedAI)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
