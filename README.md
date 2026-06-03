@@ -25,7 +25,7 @@ Workers closest to the work have unique insight into real-world risks and harms.
 - Open issues for new adaptations or tools
 - Share with unions, EHS teams, and policymakers
 
-Built from discussions at AI & Worker Health/Safety conferences and aligned with the UC Berkeley Labor Center's Negotiating Tech inventory.
+Built from discussions at NIEHS 2026 "AI & Worker Health/Safety" conference and aligned with the UC Berkeley Labor Center's "Negotiating Tech" inventory.
 
 ## License
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
