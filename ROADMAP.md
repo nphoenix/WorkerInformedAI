@@ -2,61 +2,74 @@
 
 **Project Goal**: Advance meaningful, structured worker participation in the design and deployment of AI and software systems that affect health, safety, and working conditions through open protocols, tools, and practical resources.
 
-**Current Version**: 1.0 (June 2026)
+**Current Version**: 1.1 (October 2026)
 
 ---
 
-## 📍 Completed (v1.0)
+## 📍 Completed
 
+### v1.0 (June 2026)
 - Initial release of the **Worker-Informed Participation Protocol (WIPP)** boilerplate clause
 - Joint Worker-Employer Impact Assessment Template
 - Core repository structure, README, and contributing guidelines
 - Licensing and attribution framework (CC-BY-4.0 via inXsol LLC)
 - Alignment with NIST AI RMF, UC Berkeley Labor Center, and NIEHS themes
 
+### v1.1 (October 2026)
+- [Reference architecture](docs/architecture.md) for policy authoring, enforcement, and audit
+- [CBA-to-policy walkthrough](examples/cba-to-policy-walkthrough.md), an illustrative worked example
+- [Vendor Telemetry & Data Disclosure Addendum](clauses/vendor-telemetry-addendum.md)
+- [Construction & Field Services sector version](clauses/WIPP-CLAUSE-construction-field-services.md)
+
 ---
 
-## 🗓️ Q3–Q4 2026 (Short-term)
+## 🔧 Now: Active Development (Q4 2026)
 
-- **v1.1** — Expanded clause adaptations
-  - Manufacturing / Industrial sector version
-  - Healthcare / Clinical version
-  - Construction & Field Services version
-- Add more templates:
+The reference architecture moved forward from the earlier 2027–2028 plan. It is now in active development as three workstreams:
+
+- **Authoring**: Collaborative policy authoring in which worker representatives and employers co-author policy informed by collective bargaining agreements. One source produces contract terms, plain-language worker notices, and policy-as-code.
+- **Enforcement**: Open Policy Agent (Rego) policy bundles with tests, plus integration examples for existing open-source AI gateways (e.g. LiteLLM, Envoy AI Gateway, Kong AI Gateway). Each request gets a WIPP policy check. No traffic interception or decryption.
+- **Audit**: OpenTelemetry event schema (GenAI semantic conventions plus `wipp.*` attributes), an append-only hash-chained log format, and a chain verifier the Joint Worker Participation Committee can run. Optional xAPI worker-facing records.
+
+The vendor telemetry approach (contractual disclosure, log export, egress/DNS metadata checks against the procurement data inventory) is being developed alongside these workstreams.
+
+---
+
+## 🗓️ Q4 2026 – Q1 2027 (Short-term)
+
+- Remaining sector versions:
+  - Manufacturing / Industrial
+  - Healthcare / Clinical
+- Additional templates:
   - Joint Worker Participation Committee Charter
   - Co-Design Workshop Facilitation Guide
   - Sample RFP / Procurement Language
-- Create **WIPP Implementation Guide** (how-to for unions and employers)
-- Improve documentation and add visuals (flowcharts for WIPP process)
-- Outreach:
-  - Share at labor, EHS, and AI ethics forums
-  - Seek feedback from unions and worker advocacy groups
+- **WIPP Implementation Guide** (how-to for unions and employers)
+- First tagged release of reference policy bundles and audit schema
+- Outreach and feedback from unions, worker organizations, and EHS professionals
 
 ---
 
 ## 2027 (Medium-term)
 
-- **Compliance Verification Tooling**
-  - Open-source reference implementation of the Active Configurator
-  - GitHub / Jira ticket integration for WIPP compliance tracking
-  - Basic versioning support for libraries, prompts, and RAG knowledge bases
-- Develop training materials (slide decks, videos) for worker representatives
-- Build case studies and pilot documentation framework
+- Harden the reference components based on pilot feedback
+- Committee-facing audit views and summary reports built on the audit log
+- GitHub / Jira ticket integration for WIPP Record tracking
+- Versioning support for libraries and AI knowledge sources (prompts, retrieval data)
+- Training materials (slide decks, videos) for worker representatives
+- Case studies and a pilot documentation framework
 - Internationalization: Spanish translation of core documents
-- Establish formal partnerships with labor centers and training organizations
+- Collaboration with labor centers and training organizations
 
 ---
 
 ## 2028+ (Long-term)
 
-- Full **Active Compliance Verification Platform**
-  - Automated policy enforcement engine
-  - Real-time compliance scoring and audit report generation
-  - Dashboard for Joint Committees
-- Expand into related standards (ISO 42001, EU AI Act worker provisions)
+- Compliance reporting and Joint Committee dashboard, built on the audit stream
+- Mappings to related standards (ISO/IEC 42001, EU AI Act worker provisions)
 - Community-driven extensions and sector-specific toolkits
-- Sustainable funding model (open core + commercial verification services via inXsol LLC)
-- Potential spin-out or nonprofit collaboration for broad adoption
+- Long-term sustainability: open core, with optional commercial verification services via inXsol LLC
+- Potential nonprofit collaboration for broad adoption
 
 ---
 

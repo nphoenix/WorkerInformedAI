@@ -22,9 +22,11 @@ Thank you for your interest in contributing to **WorkerInformedAI**! This projec
 - Case studies or implementation examples
 
 ### 3. Technical Contributions
-- Prototype tools or compliance configurators
-- Integration examples (GitHub Actions, Jira, RAG systems)
+- Components of the [reference architecture](docs/architecture.md): Open Policy Agent (Rego) policies and tests, AI gateway integration examples, OpenTelemetry audit event schemas, hash-chain verification
+- Integration examples (GitHub Actions, Jira, AI knowledge sources such as prompts and retrieval data)
 - Documentation improvements
+
+Please keep technical contributions free of secrets, credentials, real worker data, and identifying details of any workplace. Use clearly labeled fictional examples.
 
 ### 4. Review and Feedback
 - Review pull requests
